@@ -1,0 +1,29 @@
+.app{
+    min-height: 93vh;
+}
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+.footer{
+    padding: 20px 0 5px;
+    background: #555555;
+    color: white;
+}
+.border-right-none{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.border-left-none{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.border-right-none:focus {
+    outline: none;
+    box-shadow: none
+}
+.select2-container{
+    display: block;
+    border-color: #f3f3f3;
+}
